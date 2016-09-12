@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: block
+# key: mstb
+# --
+{{#${1:key}}}
+    $0
+{{/$1}}
