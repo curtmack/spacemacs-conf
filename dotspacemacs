@@ -417,7 +417,9 @@ you should place your code here."
      (python . t)))
 
   ;; load secret configuration
-  (load-file "private/secret.el")
+  (load-file (expand-file-name "secret.el"
+                               (expand-file-name "private"
+                                                 user-emacs-directory)))
 
   )
 
