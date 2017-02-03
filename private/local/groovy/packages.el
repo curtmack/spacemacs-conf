@@ -5,6 +5,10 @@
 (defun groovy/init-groovy-mode ()
   (use-package groovy-mode
     :defer t
+    ;;:init
+    ;;(spacemacs|add-company-backends
+      ;;:backends company-emacs-eclim
+      ;;:modes groovy-mode)
     :config
     (progn
       ;; Set up inf-groovy

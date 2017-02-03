@@ -18,7 +18,7 @@
 
 ;;; Code:
 
-(defconst smart-tabs-packages
+(setq smart-tabs-packages
   '(smart-tabs-mode))
 
 (defun smart-tabs/init-smart-tabs-mode ()
